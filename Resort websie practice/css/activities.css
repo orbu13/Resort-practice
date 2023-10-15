@@ -1,0 +1,43 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Style the div element with a black background and white text */
+div {
+    font-size: 18px;
+    text-align: center;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Style the paragraphs */
+p {
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+/* Style the buttons (anchors) with black background and white text */
+button a {
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    margin: 10px;
+    color: #fff; /* White text color */
+    background-color: #000; /* Black background color */
+    padding: 10px 20px; /* Add some padding to the buttons */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style buttons on hover */
+button a:hover {
+    background-color: #333; /* Darker black background color on hover */
+}

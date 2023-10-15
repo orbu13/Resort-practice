@@ -1,0 +1,47 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+/* Style the heading */
+h1 {
+    font-size: 32px;
+    text-align: center;
+    background-color: #0077b6; 
+    color: #fff; 
+    padding: 20px;
+    margin: 0;
+}
+
+/* Style the div element */
+div {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the list items (anchors) */
+ul {
+    list-style: none; 
+    text-align: center;
+
+}
+
+ul a {
+    text-decoration: none; 
+    display: block; 
+    font-size: 24px;
+    margin: 10px;
+    color: #0077b6; 
+}
+
+/* Style links on hover */
+ul a:hover {
+    color: #ff6b6b;
+}
+

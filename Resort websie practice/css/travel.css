@@ -1,0 +1,43 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccb; /* Light pink background color */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Style the div element with a pink background and white text */
+div {
+    font-size: 18px;
+    text-align: center;
+    background-color: #ff69b4; /* Pink background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Style the paragraphs */
+p {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the buttons (anchors) with pink background and white text */
+button a {
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    margin: 10px;
+    color: #fff; /* White text color */
+    background-color: #ff69b4; /* Pink background color */
+    padding: 10px 20px; /* Add some padding to the buttons */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style buttons on hover */
+button a:hover {
+    background-color: #ff1493; /* Darker pink background color on hover */
+}

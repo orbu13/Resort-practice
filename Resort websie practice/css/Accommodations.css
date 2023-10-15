@@ -1,0 +1,38 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Style the div element with a green background and white text */
+div {
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 18px; /* Increase the font size */
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the ordered list items (anchors) with green color */
+ol a {
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Make links block elements for easier clickability */
+    font-size: 24px;
+    margin: 10px;
+    color: #28a745; /* Green link text color */
+}
+
+/* Style links on hover */
+ol a:hover {
+    color: #1e7e34; /* Darker green link text color on hover */
+}
